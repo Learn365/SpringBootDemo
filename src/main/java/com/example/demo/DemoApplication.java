@@ -28,9 +28,6 @@ public class DemoApplication extends SpringBootServletInitializer implements Com
 	@Value("${spring.application.name:demoservice}")
 	private String name;
 
-	@Autowired
-	RestTemplate restTemplate;
-
 	public static void main(String[] args) {
 		logger.info("this is a info message");
 		logger.warn("this is a warn message");
